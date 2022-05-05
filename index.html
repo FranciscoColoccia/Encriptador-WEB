@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+
+<html lang="es">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+        <title>encriptador y desencriptador</title>
+    </head>
+    <body>
+        <main>
+            <section class="contenedor">
+                <div>
+                    <video class="video" src="imagenes/aurora_borealis_-_74183 (Original).mp4" autoplay="true" muted="true" loop="true"></video>
+                </div>
+                <img src="imagenes/Logo (1).png" class="imagen-logo">
+
+                <h1>Developed By Francisco Coloccia</h1>
+
+                <h2>
+                    <a href="https://www.linkedin.com/in/francisco-coloccia-334bba235/"> <img src="imagenes/LI-In-Bug.png" alt="logo linkedin" width="30px"></a>
+                    <a href="https://github.com/FranciscoColoccia"><img src="imagenes/GitHub-Mark-32px.png" alt="logo github" width="30px"> </a>
+                </h2>
+
+                <small class="advertencia">⚠ AVISO: Devuelve el texto en minuscula</small>
+
+                <form>
+                    <div class="caja">
+                    <textarea cols="69" rows="10" id="encriptador" class="caja-contenido"  placeholder="Ingrese su texto aqui"></textarea>
+                
+                    <textarea  class="caja-contenido" cols="69" rows="10" readonly type="text" id="desencriptador" placeholder="No has ingresado un ningun texto..."></textarea>          
+                 </div>
+                </form>
+                    <div class="botones">           
+                        <button class="contenido-botones" id="botonEncrip">Encriptar</button>
+                        <button class="contenido-botones" id="botonDescrip">Desencriptar</button>
+                        <button class="contenido-botones" id="botonCopiar" >Copiar!</button>                       
+                    </div>
+            </section>
+        </main>
+    </body>
+    <script src="encriptador.js"></script>
+</html>
