@@ -82,10 +82,13 @@ h2{
 
 .caja-contenido:first-child{
     height: 200px;
+    width: 90% ;
+    max-width: 400px;
 }
 .caja-contenido:last-child{
-    width: 300px;
+    width: 90%;
     height: 500px;
+    max-width: 200px;
 }
 
 .botones{
